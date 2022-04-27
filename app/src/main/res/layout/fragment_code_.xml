@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    tools:context=".Code_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tablayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    app:tabIndicatorColor="@color/yellow"
+                    app:tabSelectedTextColor="@color/white"
+                    app:tabTextColor="#dedede">
+
+
+                    <com.google.android.material.tabs.TabItem
+                        android:id="@+id/tab1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C++" />
+
+                    <com.google.android.material.tabs.TabItem
+                        android:id="@+id/tabcompiler1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Compile" />
+
+                </com.google.android.material.tabs.TabLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/bubblecode"
+                    android:layout_margin="9dp"
+                    android:textSize="16dp"
+                    android:textIsSelectable="true"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_light"
+                    android:textColor="@color/blue"/>
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tablayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    app:tabIndicatorColor="@color/yellow"
+                    app:tabSelectedTextColor="@color/white"
+                    app:tabTextColor="#dedede">
+
+
+                    <com.google.android.material.tabs.TabItem
+                        android:id="@+id/tab2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C" />
+                    <com.google.android.material.tabs.TabItem
+                        android:id="@+id/tabcompiler2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Compile" />
+
+                </com.google.android.material.tabs.TabLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/bubbleccode"
+                    android:layout_margin="9dp"
+                    android:textSize="16dp"
+                    android:textIsSelectable="true"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_light"
+                    android:textColor="@color/blue"/>
+
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tablayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/blue"
+                    app:tabIndicatorColor="@color/yellow"
+                    app:tabSelectedTextColor="@color/white"
+                    app:tabTextColor="#dedede">
+
+                    <com.google.android.material.tabs.TabItem
+                        android:id="@+id/tab3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JAVA" />
+                    <com.google.android.material.tabs.TabItem
+                        android:id="@+id/tabcompiler3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Compile" />
+
+                </com.google.android.material.tabs.TabLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/javabubblecode"
+                    android:layout_margin="9dp"
+                    android:textSize="16dp"
+                    android:textIsSelectable="true"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_light"
+                    android:textColor="@color/blue"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

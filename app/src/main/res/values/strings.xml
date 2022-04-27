@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">AlgoPedia</string>
+    <string name="chapter1">1. Introduction to DSA</string>
+    <string name="chapter2">2. Arrays</string>
+    <string name="chapter3">3. Strings</string>
+    <string name="chapter4">4. Structures and Unions</string>
+    <string name="chapter5">5. Linked Lists</string>
+    <string name="chapter6">6. Stacks</string>
+    <string name="chapter7">7. Queues</string>
+    <string name="chapter8">8. Trees</string>
+    <string name="chapter9">9. Efficient Binary Trees</string>
+    <string name="chapter10">10. Multi-way Search Trees</string>
+    <string name="chapter11">11. Heaps</string>
+    <string name="chapter12">12. Graphs</string>
+    <string name="chapter13">13. Searching and Sorting</string>
+    <string name="chapter14">14.  Hashing and Collision</string>
+    <string name="chapter15">15.  Standard Template Library (STL)</string>
+
+
+    <string name="desc">
+        Master Data Structures And Algorithms.
+    DSA made Lot More Easier And Fun !! A Revolutionary Mobile Application That Covers
+       All The Relevant Topics For Beginners To Advance And Proffessionals. Now Ace At Your Interviews With Confidence.
+    </string>
+
+    <string name="visual">
+        Animated Visuals Of Data-Flow. Understand Better
+        the Structure Of Algorithm\'s.
+    </string>
+
+    <string name="videotutorial"> Watch Videos Of Any Topic From The
+          Playlist .
+    </string>
+
+    <string name="compiler">
+          Compile and Run The  Code In C++, C, JAVA.
+    </string>
+
+    <string name="multiple">Every Algorithm In Multiple
+         Languages Like, C, C++, Java.
+    </string>
+
+    <string name="interview"> Crack Any Interview Process.
+           Set Of IMPORTANT QUESTIONS Asked About DSA In MNC\'s.
+    </string>
+
+    <string name="audio">Listen To The Definitions And Hefty Theories
+        And More Detailed Concepts Of DSA.
+    </string>
+
+    <string name="user">
+        User-Friendly Interface, With Automated Recommendation. </string>
+
+    <string name="savetime">
+        Time-Efficient.
+    The Only Source You Need For The Right Information.
+    </string>
+
+    <string name="key">The Only key To Master DSA at Interviews And IT Based Examination.</string>
+
+    <string name="rohitdesc">Hey folks, this is Rohit Singh, I have Worked productively with Product Team to understand requirements and business specifications around Portfolio Management, Analytics and Risk.
+Team AlgoPedia Welcomes You To An Exciting Journey Of Learning DSA. We have Worked to solve complex problems using the latest Mobile, and Web Technologies,
+ Developed and presented  solutions to audiences using modern mediums, and also  achieved positions in different competitions.
+    </string>
+    <string name="prashantdesc">Hey guy\'s I am Prashant Singh currently pursuing my Bachelor\'s Degree from
+        Parul University, Vadodara Gujarat in the field of Computer Science. Following the part of Application Developer
+        I am familiar with Native Development such as "Android Studio" and Cross-Platform Development such as "Flutter"
+With great command on C++ and goto in  JAVA and Python languages. Better communication, problem solving and analytical
+        skills. Engrossed in melody and Sports enthusiast.</string>
+
+    <string name="femildesc">Hello guy\'s I\'m Femil Savaliya web developer who code, design and create awesome layout of a website according to a company\'s specifications.
+My role takes into consideration user experience and function, a certain level of both graphic design and computer programming.
+I work with different technologies as required and also create content on web like blogs, Nfts etc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bubblecode">#include&lt;iostream&gt; \n
+
+using namespace std;\n
+
+int main()\n
+{\n
+    int n, i, arr[50], j, temp;\n
+    cout&lt;&lt;"Enter the Size (max. 50): ";\n
+    cin>>n;\n
+    cout&lt;&lt;"Enter "&lt;&lt;n&lt;&lt;" Numbers: ";\n
+    for(i=0; i&lt;n; i++)\n
+        cin>>arr[i];\n
+    cout&lt;&lt;"\nSorting the Array using Bubble Sort Technique..\n";\n
+    for(i=0; i&lt;(n-1); i++)\n
+    {\n
+        for(j=0; j&lt;(n-i-1); j++)\n
+        {\n
+            if(arr[j]>arr[j+1])\n
+            {\n
+                temp = arr[j];\n
+                arr[j] = arr[j+1];\n
+                arr[j+1] = temp;\n
+            }\n
+        }\n
+    }\n
+    cout&lt;&lt;"Array Sorted Successfully!";\n
+    cout&lt;&lt;"The New Array is: ";\n
+    for(i=0; i&lt;n; i++)\n
+        cout&lt;&lt;arr[i]&lt;&lt;" ";\n
+    cout&lt;&lt;endl;\n
+    return 0;\n
+}\n
+    </string>
+<string name="javabubblecode">
+    public class BubbleSortExample {  \n
+    static void bubbleSort(int[] arr) {  \n
+        int n = arr.length;  \n
+        int temp = 0;  \n
+         for(int i=0; i &lt; n; i++){  \n
+                 for(int j=1; j &lt; (n-i); j++){  \n
+                          if(arr[j-1] > arr[j]){  \n
+                                 //swap elements  \n
+                                 temp = arr[j-1];  \n
+                                 arr[j-1] = arr[j];  \n
+                                 arr[j] = temp;  \n
+                         }  \n
+
+                 }  \n
+         }  \n
+
+    }  \n
+    public static void main(String[] args) {  \n
+                int arr[] ={3,60,35,2,45,320,5};  \n
+
+                System.out.println("Array Before Bubble Sort");  \n
+                for(int i=0; i &lt; arr.length; i++){  \n
+                        System.out.print(arr[i] + " ");  \n
+                }  \n
+                System.out.println();  \n
+
+                bubbleSort(arr);//sorting array elements using bubble sort  \n
+
+                System.out.println("Array After Bubble Sort");  \n
+                for(int i=0; i &lt; arr.length; i++){  \n
+                        System.out.print(arr[i] + " ");  \n
+                }  \n
+
+        }  \n
+}  </string>
+    <string name="bubbleccode">#include &lt;stdio.h&gt; \n
+
+int main(){ \n \n
+
+    int arr[50], num, x, y, temp;     \n
+
+    printf("Please Enter the Number of Elements you want in the array: "); \n
+
+    scanf("%d", &amp;num);     \n
+
+    printf("Please Enter the Value of Elements: "); \n
+
+    for(x = 0; x &lt; num; x++) \n
+
+        scanf("%d", &amp;arr[x]); \n
+
+    for(x = 0; x &lt; num - 1; x++){        \n
+
+        for(y = 0; y &lt; num - x - 1; y++){    \n
+
+            if(arr[y] > arr[y + 1]){        \n
+
+                temp = arr[y]; \n
+
+                arr[y] = arr[y + 1]; \n
+
+                arr[y + 1] = temp; \n
+
+            } \n
+
+        } \n
+
+    } \n
+
+    printf("Array after implementing bubble sort: "); \n
+
+    for(x = 0; x &lt; num; x++){ \n
+
+        printf("%d  ", arr[x]); \n
+
+    } \n
+ \n
+    return 0; \n
+
+} \n
+    </string>
+</resources>

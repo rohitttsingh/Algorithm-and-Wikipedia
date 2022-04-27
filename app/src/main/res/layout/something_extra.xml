@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="226dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="-80dp"
+                android:layout_marginRight="40dp"
+                android:alpha="0.5"
+                android:rotation="23"
+                android:src="@drawable/bg1" />
+
+            <ImageView
+                android:layout_width="259dp"
+                android:layout_height="309dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="133dp"
+                android:layout_marginEnd="-100dp"
+                android:alpha="0.3"
+                android:rotation="23"
+                android:src="@drawable/bg2" />
+
+            <ImageView
+                android:layout_width="411dp"
+                android:layout_height="422dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="-150dp"
+                android:layout_marginTop="390dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="-73dp"
+                android:alpha="0.2"
+                android:rotation="23"
+                android:src="@drawable/bg3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Master Any Topic:"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/acme"
+                    android:textSize="34dp"
+                    android:layout_margin="25dp">
+
+                </TextView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/round_bk2"
+                        android:onClick="beginner">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:alpha="0.8"
+                            android:fontFamily="@font/acme"
+                            android:gravity="center"
+                            android:text="Arrays"
+                            android:textColor="@color/lightblue"
+                            android:textSize="30dp" />
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/beginner" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/roung_bg1"
+                        android:onClick="intermediate">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/acme"
+                            android:gravity="center"
+                            android:text="Intermediate"
+                            android:alpha="0.8"
+                            android:textColor="@color/lightblue"
+                            android:textSize="30dp" />
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="-10dp"
+                        android:src="@drawable/intermediate" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/round_bg2"
+                        android:onClick="expert">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/acme"
+                            android:gravity="center"
+                            android:text="Expert"
+                            android:alpha="0.8"
+                            android:textColor="@color/lightblue"
+                            android:textSize="30dp" />
+
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/expert" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

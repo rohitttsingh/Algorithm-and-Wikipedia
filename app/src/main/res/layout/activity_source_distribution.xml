@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SourceDistribution"
+    android:orientation="vertical"
+    android:background="#111133">
+  <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/backgroundanimation" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Brief Contents :"
+                    android:textSize="36dp"
+
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/acme"/>
+
+         <com.tiper.MaterialSpinner
+
+             android:id="@+id/spinner1"
+             android:spinnerMode="dropdown"
+             android:textColor="@color/purple_200"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_gravity="center"
+             android:layout_margin="9dp"
+             android:paddingLeft="13dp"
+             android:textColorHint="@color/purple_200"
+             app:hintTextColor="@color/lightblue"
+             android:hint="@string/chapter1"
+             android:layout_marginTop="121dp"
+             android:background="@drawable/spinner_drop_bg_design"
+             tools:listitem="@layout/list_item"
+             android:textAlignment="center" />
+
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner2"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+                    android:textColorHint="@color/purple_200"
+                    app:hintTextColor="@color/lightblue"
+                    android:hint="@string/chapter2"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner3"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter3"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner4"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter4"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner5"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter5"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner6"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter6"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner7"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter7"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner8"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter8"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner9"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter9"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner10"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter10"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner11"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter11"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner12"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter12"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner13"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter13"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner14"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter14"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+
+                <com.tiper.MaterialSpinner
+                    android:id="@+id/spinner15"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/purple_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="9dp"
+                    android:paddingLeft="13dp"
+
+                    android:textColorHint="@color/purple_200"
+
+                    app:hintTextColor="@color/lightblue"
+
+
+                    android:hint="@string/chapter15"
+                    android:layout_marginTop="121dp"
+                    android:background="@drawable/spinner_drop_bg_design"
+                    tools:listitem="@layout/list_item"
+                    android:textAlignment="center" />
+
+
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="58dp"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@color/white" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="All Rights Reserved | MicraSol LLP"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="13dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
